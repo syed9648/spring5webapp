@@ -3,6 +3,6 @@ node {
             git 'https://github.com/syed9648/spring5webapp'
         }
          stage('Compile-Package') {
-            'mvn package'
+            sh 'mvn package'
         }
     }
